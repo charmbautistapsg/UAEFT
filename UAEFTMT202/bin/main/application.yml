@@ -1,0 +1,30 @@
+server:
+  port: 8083
+spring:
+  main:
+    web-application-type: none
+  jpa:
+    show-sql: true
+    database: SQL_SERVER
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServerDialect
+  datasource:
+    url: jdbc:sqlserver://WIN-NVPRFLSSM2N:1433;encrypt=true;trustServerCertificate=true;databaseName=GIBDEV10
+    username: GIBDEV10
+    password: password10
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+uaeftmt202:
+  interval: 90
+  length: 35
+  messageType: MT202
+  messageStatus: PEND
+ibm:
+  mq:
+    queueManager: LIQMGR
+    channel: SYSTEM.DEF.SVRCONN
+    connName: 43.231.126.138(1414)
+    user: administrator
+    password: ZMuR5vwNo5zI#DDyttR
+    queueName: LNQKSA_GTF_OUT
+
