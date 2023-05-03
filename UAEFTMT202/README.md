@@ -1,0 +1,1 @@
+This is core service for UAEFT MT 202 message 
